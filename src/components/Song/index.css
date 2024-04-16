@@ -1,0 +1,24 @@
+.Song {
+  border: dimgray 2px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  box-shadow: inset;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Song_title {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Song_singer {
+  color: dimgray;
+  font-size: 15px;
+}
+
+.Song_no {
+  font-size: 25px;
+}

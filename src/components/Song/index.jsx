@@ -1,9 +1,13 @@
-function Song({ title, no, singer }) {
+import "./index.css";
+
+function Song({ title, singer, no }) {
   return (
-    <div>
-      <div>{title}</div>
-      <div>{singer}</div>
-      <div>{no}</div>
+    <div className="Song">
+      <div>
+        <div className="Song_title">{title}</div>
+        <div className="Song_singer">{singer}</div>
+      </div>
+      <div className="Song_no">{no}</div>
     </div>
   );
 }
