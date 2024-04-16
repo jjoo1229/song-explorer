@@ -1,8 +1,9 @@
 .Song {
-  border: dimgray 2px;
+  /* border: 1px solid dimgray; */
   border-radius: 15px;
   margin-bottom: 10px;
-  box-shadow: inset;
+  padding: 10px;
+  box-shadow: 5px 3px 3px 3px rgb(223, 221, 221);
 
   display: flex;
   justify-content: space-between;
